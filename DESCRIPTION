@@ -1,0 +1,35 @@
+Package: NNPKPD
+Type: Package
+Title: Functionalities for working with PK/PD data and review app
+Version: 0.1.85
+Authors@R: 
+    c(person(given = "Kristoffer Segerstrøm",
+             family = "Mørk",
+             role = c("aut", "cre"),
+             email = "kfsm@novonordisk.com"),
+      person(given = "Steffen Falgreen",
+             family = "Larsen",
+             role = "aut",
+             email = "sffl@novonordisk.com"))
+repository: LocalRepo
+Author: Kristoffer Segerstrøm Mørk [aut, cre],
+  Steffen Falgreen Larsen [aut]
+Maintainer: Kristoffer Segerstrøm Mørk <kfsm@novonordisk.com>
+Description: This package adds basic functions and tools for common usage in
+    PK/PD analysis and review.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends: R (>= 3.5.0)
+Imports: 
+    tibble, survival, stats, 
+    cowplot,
+    ggplot2, rlang, data.table, grid, glue, 
+    ggforce, tools, dplyr, fasttime, magrittr,
+    officer, ggthemes, 
+    ggpubr, tidyr, labelled, shiny, flextable, 
+    shinyjs, shinydashboard, shinycssloaders, shinyWidgets, shinyalert, DT, haven, readxl, zip,
+    future.apply, future, promises,
+    config, DBI, RSQLite, RPostgres, dbplyr,
+    colourpicker, egg, plyr, scales
